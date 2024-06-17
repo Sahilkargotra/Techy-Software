@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Techy Software - Innovative Solutions for Modern Problems">
+    <title>Techy Software</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact" id="contactBtn">Contact Us</a>
+        <a href="#feedback" id="feedbackBtn">Feedback</a>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to Techy Software</h1>
+        <h2>Innovative Solutions for Modern Problems</h2>
+    </header>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <h2>We specialize in creating websites that fit your budget perfectly.</h2>
+        <section id="about" class = "about-section full-screen">
+            <p>
+            At Techy Software, we offer tailored website solutions designed for your business.<br> Coupled with business growth ideas and strategies, our goal is to foster the expansion of your business.<br> We believe in making every business thrive in both digital and offline realms.<br> “Join the future trend of business with the help of Nexus Info, and let’s grow together.
+            </p>
+            <img src="https://media.istockphoto.com/id/498323251/photo/colleagues-discussing-over-digital-tablet.jpg?s=612x612&w=0&k=20&c=DNvyl9vDe6sRY76cuGdaye1unr_F48GKRtm2FB8thII=" alt="Nexus Software Interface" width="400" height="200">
+        </section>
+
+        <h1>Our Products</h1>
+        <h2>Explore our range of products designed to improve efficiency and productivity.</h2>
+        <section id="products" class = "about-section full-screen">
+            <p>Build your ideal website or online store tailored to your budget.<br> Our expert team crafts tailored solutions with your financial constraints in mind.<br> Get a professional online presence without breaking the bank.<br> Let us bring your vision to life affordably.</p>
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product Image" width="400" height="200">
+        </section>
+
+        <section id="contact" class="hidden">
+            <h1>Contact Us</h1>
+            <form id="contact-form" action="/submit" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="feedback" class="hidden">
+            <h2>Feedback</h2>
+            <form id="feedback-form" action="/feedback" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="feedback" placeholder="Your Feedback" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <button type="button" href="#contact" id="contactBtn"class="btn btn-success">Contact Us</button>
+    <button type="button"href="#feedback" id="feedbackBtn" class="btn btn-success">Feedback</button>
+    <footer>
+        <p>&copy; 2024 Techy Software</p>
+        <div class = "contain"> 
+        <div class = "c1">
+              <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj3-8NTnYzwHsTnff04TpruOQtuIMBBQqiXrjvP9M8lb7Nni_JIhszgH2XZaqiQMCd1Ck&usqp=CAU" alt = "logo" width = "60px" height ="60px">
+              <p>
+               <i>We develop websites for your business,<br>
+                 bringing your vision to life and propelling <br>your business into the digital realm.</i>
+              </p>
+        </div>
+        <div class = "c2">
+            <a href="https://facebook.com/techysoftware" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://twitter.com/techysoftware" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+    </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
